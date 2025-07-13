@@ -1,64 +1,49 @@
-/* css/style.css */
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beranda - Aksi Konvergensi Stunting</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <h1>Aksi Konvergensi Stunting Desa</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Beranda</a></li>
+        <li><a href="tentang.html">Tentang Stunting</a></li>
+        <li><a href="format.html">Format</a></li>
+        <li><a href="input.html">Input Data</a></li>
+        <li><a href="kontak.html">Kontak</a></li>
+      </ul>
+    </nav>
+  </header>
 
-body {
-  font-family: Arial, sans-serif;
-  background-color: #f4fce6;
-  color: #333;
-  margin: 0;
-  padding: 0;
-}
+  <main>
+    <section class="hero">
+      <h2>Selamat Datang di Website Aksi Konvergensi Stunting Desa</h2>
+      <p>Website ini dibuat untuk membantu upaya percepatan penurunan stunting melalui pendekatan berbasis desa.</p>
+    </section>
 
-header {
-  background-color: #4CAF50;
-  padding: 20px;
-  color: white;
-  text-align: center;
-}
+    <section class="info">
+      <h3>Apa Itu Stunting?</h3>
+      <p>Stunting adalah kondisi gagal tumbuh pada anak balita akibat kekurangan gizi kronis. Pencegahannya membutuhkan keterlibatan aktif semua pihak, khususnya pemerintah desa.</p>
+    </section>
 
-nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  background-color: #388E3C;
-  overflow: hidden;
-  text-align: center;
-}
+    <section class="fitur">
+      <h3>Fitur Website</h3>
+      <ul>
+        <li>💡 Informasi penting tentang stunting</li>
+        <li>📄 Format-format laporan dan dokumen</li>
+        <li>📝 Form input data kegiatan stunting</li>
+        <li>📌 Kontak dan dokumentasi kegiatan</li>
+      </ul>
+    </section>
+  </main>
 
-nav ul li {
-  display: inline-block;
-}
-
-nav ul li a {
-  display: block;
-  padding: 14px 20px;
-  text-decoration: none;
-  color: white;
-  transition: background-color 0.3s;
-}
-
-nav ul li a:hover {
-  background-color: #2E7D32;
-}
-
-main {
-  padding: 20px;
-}
-
-.hero {
-  background-color: #e0f2f1;
-  padding: 20px;
-  margin-bottom: 20px;
-  border-radius: 8px;
-}
-
-.info, .fitur {
-  margin-bottom: 20px;
-}
-
-footer {
-  background-color: #388E3C;
-  color: white;
-  text-align: center;
-  padding: 10px;
-  margin-top: 40px;
-}
+  <footer>
+    <p>&copy; 2025 Aksi Konvergensi Stunting | Desa Sehat, Anak Hebat</p>
+  </footer>
+</body>
+</html>
